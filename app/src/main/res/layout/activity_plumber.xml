@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Plumber"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:weightSum="10"
+    >
+
+
+    <ListView
+
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="677dp"
+        android:layout_weight="9"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:padding="10dp"
+
+
+        />
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:background="@drawable/custom_layout">
+
+        <LinearLayout
+            android:layout_width="543dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Total: "
+                android:textColor="@color/background"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="RS. "
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/totalprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="0"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:padding="5dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Check Out"
+                android:backgroundTint="@color/background"
+                android:onClick="checkout"
+                android:padding="5dp"
+                android:layout_marginRight="5dp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <!--<TextView
+        android:id="@+id/textView2"
+        android:layout_width="244dp"
+        android:layout_height="211dp"
+        android:text="Your Worker is on its way"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+</LinearLayout>

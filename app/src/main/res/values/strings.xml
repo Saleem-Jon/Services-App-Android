@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ProjectV1</string>
+
+    <string-array name="plumberItemsNames">
+        <item>Wash basin tap(Installation)</item>
+        <item>Shower tap (Installation)</item>
+        <item>Muslim shower (Installation)</item>
+        <item>Normal tap (Installation)</item>
+        <item>Bathtub tap set (Installation)</item>
+        <item>Geyser (Installation)</item>
+        <item>Washing Machine (Repair)</item>
+    </string-array>
+    <string-array name="plumberItemDescriptions">
+        <item>For installing a new wash basin.</item>
+        <item>Fitting a new shower tap/mixer.</item>
+        <item>Fitting of muslim shower along with pipe.</item>
+        <item>Any normal indoor or outdoor tap fitting.</item>
+        <item>BBathtub tap assembly (whole set) fitting.</item>
+        <item>Geyser installation and fitting.</item>
+        <item>Repairing of washing machine\'s motor</item>
+    </string-array>
+    <string-array name="plumberItemPrices">
+        <item>300</item>
+        <item>300</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>
